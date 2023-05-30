@@ -1,0 +1,12 @@
+1.make folder on desktop
+2.on gitbash/cmd set path to current folder
+3.git init
+4.touch file1.txt file2.txt
+5.git add .
+6.git commit -m "first commit"
+7.git remote add origin https://github.com/-----  //  repo path
+8.git push -u origin main
+9.if error->
+	
+	9.1 git remote set-url origin https://<token>@github.com/<username>/<repo-name>
+	9.2 git push origin main
